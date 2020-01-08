@@ -1,0 +1,292 @@
+<div class="page" data-name="task-details">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="/#/" class="link" id="taskDetailsBackButton">
+          <i class="icon icon-back"></i>
+
+        </a>
+      </div>
+      <div class="title">Task Details</div>
+      
+    </div>
+  </div>
+
+  <div class="page-content gray-bg" id="contain-layout-task-details">
+
+    <!-- <div class="card">
+      <div class="item-media2">
+        <img src="images/paint-roller.svg" width="70" />
+        <h3>Wall Painting</h3>
+        <p>Pefect cleanness with yup serve</p>
+        <p class="orenge">100% Guarantee</p>
+      </div>
+    </div> -->
+
+    <div class="card" id="customers-layout">
+      <div class="card-header heading-text">Customer Details</div>
+
+      <div class="clearfix"></div>
+      <div class="list media-list card-inner-padding">
+        <table id="customers" class="mrg-top-btm">
+
+          <tr>
+            <td style="width:30%">Name </td>
+            <td style="width:45%" id="customerName"></td>
+          </tr>
+          <tr>
+            <td>Mobile </td>
+            <td id="customerPhone"></td>
+          </tr>
+          <tr>
+              <td>Email </td>
+              <td id="customerEmail"></td>
+            </tr>
+          <tr>
+            <td style="vertical-align:top">Address </td>
+            <td id="customerAddress">
+            </td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+
+    <div class="card" id="task-details-layout">
+      <div class="card-header heading-text">Task Details</div>
+
+      <div class="clearfix"></div>
+      <div class="list media-list card-inner-padding">
+        <table id="customers" class="mrg-top-btm">
+            <tr>
+                <td style="width:30%">Booking ID</td>
+                <td style="width:45%" id="taskBookingID"></td>
+              </tr>
+              <tr>
+                  <td style="width:30%">Service</td>
+                  <td style="width:45%" id="serviceType"></td>
+                </tr>
+              <tr>
+                  <td style="vertical-align:middle">Sub Service</td>
+                  <td id="subList">
+                    <ul id="service-sub-list-data">
+                      <li></li>
+                    </ul>
+                  </td>
+                </tr>
+          <tr>
+            <td style="width:30%">Task Schedule</td>
+            <td style="width:45%" id="taskScheduleDate"></td>
+          </tr>
+          <tr>
+            <td>Time Slot</td>
+            <td id="taskScheduleTime"></td>
+          </tr>
+          <tr>
+            <td>Status</td>
+            <td>
+
+              <p class="status-cont">
+                <span class="status-btn" id="taskStatusColor"></span><span id="taskStatus"></span>
+              </p>
+            </td>
+          </tr>
+
+          <tr id="service-requirement-layout">
+            <td style="vertical-align:top">Service Details</td>
+            <td ><span id="extraRequirement"></span>
+              <ul id="extraRequirementImage">
+                <li style="display:inline;">
+                    <a href="/#/">
+                  <img src="images/room1.png" id="image1" style="width: 40px; height: 40px; margin-left: 5px;"/>
+                  </a>
+                </li>
+              </ul>
+              <div class="block">
+                <p class="row">
+                  <a href="/#/"><button class="col button button-fill color-green task-button" id="updateRequirementButton">Update</button></a>
+                </p>
+              </div>
+            </td>
+          </tr>
+         
+        </table>
+
+        <!-- <div class="block marg-top">
+          <p class="row">
+            <button class="col button button-fill color-green">Start</button>
+            <button class="col button button-fill color-red">Cancel</button>
+          </p>
+
+        </div> -->
+
+      </div>
+    </div>
+
+    <div class="card" id="history-layout">
+        <div class="list">
+            <ul>
+              <li class="accordion-item" style="border-bottom: none">
+                <a href="#" class="item-content item-link">
+                  <div class="item-inner">
+        <div class="heading-text" style="margin-left: 8px">History</div>
+      </div></a>
+        <div class="clearfix"></div>
+        <div class="accordion-item-content" style="padding-left: 0px !important;">
+        <div class="list media-list card-inner-padding"  style="background-color: #ffffff">
+            <ul class="my-booking" id="all-history-layout">
+                <li>
+                    <table id="customers" class="mrg-top-btm">
+                    <tr id="historyStatusDateLayout">
+                        <td style="width:45%">
+                          <span class="status-btn green" id="historyStatusColor"></span>
+                          <span id="historyStatus">Payment</span>                         
+                          <span style="font-size: 12px; color: rgb(112, 111, 111); display: block;" id="historyStatusDate">25th jan 2019, 10:20 AM</span> 
+                        </td>
+                      </tr>
+                  </table>       
+                  
+            </li>
+        
+              </ul>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+    </div>
+
+    <div class="card" id="inVoice-layout">
+      <div class="card-header heading-text">Payment Details</div>
+      <div class="clearfix"></div>
+      <div class="list media-list card-inner-padding"> 
+
+      <table id="customers" class="mrg-top-btm">
+
+          <tr>
+              <td>Payment Status</td>
+              <td>
+                <p class="status-cont">
+                  <span class="status-btn orange" id="inVoiceStatusColor"></span><span id="inVoiceStatus">Unpaid</span> 
+                </p>
+              </td>
+            </tr>
+            
+            <tr id="inVoiceTotalAmountLayout">
+              <td>Total </td>
+              <td id="serviceInVoiceTotalAmount"></td>
+           </tr>
+           
+           <tr id="booking-details-view-invoice-layout">
+            <td>Proforma Invoice </td>
+            <td>
+            <div class="block">
+            <p class="status-cont">
+            <a id="invoice-anchor" href="#" class="link external" target="_system"><i class="material-icons">cloud_download</i>Download</a> 
+           
+            </p>
+            </div>
+            </td>
+            </tr>
+
+            <tr id="receiveButtonLayout">
+                <td>Payment Receive</td>
+                <td>
+                  <div class="block">
+                    <p class="row">
+                      <a href="/#/"><button class="col button button-fill color-blue online-pay-button">Receive</button></a>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+      </table>
+      </div>
+      </div>
+
+    <div class="card" id="payment-layout">
+        <div class="card-header heading-text">Payment Details</div>
+        <div class="clearfix"></div>
+        <div class="list media-list card-inner-padding"> 
+
+        <table id="customers" class="mrg-top-btm">
+
+            <tr>
+                <td>Payment Status</td>
+                <td>
+                  <p class="status-cont">
+                    <span class="status-btn" id="paymentStatusColor"></span><span id="paymentStatus">Unpaid</span> 
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="payment-invoice-layout">
+                <td>Proforma Invoice </td>
+                <td>
+                <div class="block" id="payment-dtls-show-as-pdf">
+                <p class="status-cont"> 
+                <a id="invoice-anchor_payment" href="#" class="link external" target="_system"><i class="material-icons">cloud_download</i>Download</a> 
+              </p>
+                </div>
+                </td>
+                </tr>
+              
+              <!-- <tr id="receiveButtonLayout">
+                  <td>Payment Receive</td>
+                  <td>
+                    <div class="block">
+                      <p class="row">
+                        <a href="/#/"><button class="col button button-fill color-blue online-pay-button">Receive</button></a>
+                      </p>
+                    </div>
+                  </td>
+                </tr> -->
+
+                <tr id="paymentTypeLayout">
+                  <td style="width:30%">Payment Type </td>
+                  <td style="width:45%" id="paymentType"></td>
+                </tr>
+                <tr id="paymentTypeLayout">
+                  <td style="width:30%">Payment Date </td>
+                  <td style="width:45%" id="paymentDate"></td>
+                </tr>
+                <tr id="serviceCostLayout">
+                  <td>Service Cost </td>
+                  <td id="serviceCost"></td>
+                </tr>  
+                <tr id="taxLayout" class="hidden">
+                  <td>GST </td>
+                  <td id="serviceTax"></td>
+                </tr>
+                <tr id="discountLayout">
+                    <td>Discount </td>
+                    <td id="serviceDiscount"></td>
+                </tr>
+                <tr id="totalAmountLayout">
+                   <td style="color: #000; font-weight: bold">Total </td>
+                   <td style="color: #000; font-weight: bold" id="serviceTotalAmount"></td>
+                </tr> 
+
+        </table>
+        </div>
+        </div>
+
+        <div class="toolbar toolbar-bottom-md custom filter-toolbar" id="serviceStartLayout">
+            <div class="toolbar-inner">
+              <a href="#" class="link"><button class="col button button-fill color-green" id="serviceStartButton">Start</button></a>
+              <a href="#" class="link"><button class="col button button-fill color-red" id="serviceCancelButton">Cancel</button></a>
+            </div>
+          </div>
+          <div class="toolbar toolbar-bottom-md custom filter-toolbar" id="serviceEndLayout">
+            <div class="toolbar-inner">
+              <button class="col button button-fill color-green center" id="serviceEndButton">End</button>
+            </div>
+          </div>
+
+          <div class="toolbar toolbar-bottom-md custom filter-toolbar" id="generateBillLayout">
+            <div class="toolbar-inner">
+              <button class="col button button-fill color-green center" id="generateBillButton">Generate Bill</button>
+            </div>
+          </div>
+  </div>
+
+</div>

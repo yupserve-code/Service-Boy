@@ -1,0 +1,49 @@
+<div class="page" data-name="otp">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="title">Verify OTP</div>
+    </div>
+  </div>
+
+  <div class="page-content login-screen-content">
+    <img class="otp-image" src="images/verifyotp.svg" />
+    <p class="otp-text" id="reg-mob-number"></p>
+    <!-- <div class="edit-mob-num">
+      <p class="otp-mobile-text">+ 91 9876543210</p>
+
+      <a href="#"><img class="otp-edit-icon" src="images/edit.svg" /></a>
+    </div> -->
+
+    <p class="otp-text">Enter 4 digit code</p>
+    <div id="divOuter">
+      <div id="divInner">
+        <input id="partitioned" type="number" maxlength="4" minlength="4" />
+      </div>
+    </div>
+    <div class="label-1" style="text-align: center;">
+      <span id="otp-invalid" class="hidden mob-helpers">
+        <p class="fa fa-times invalid" id="otp-error">Enter your 4
+          digit OTP.</p>
+      </span>
+    </div>
+    <!-- <div class="otp-button-layout"><button class="otp-button">SUBMIT</button></div> -->
+    <div class="list">
+      <ul>
+        <li>
+          <div class="signup-button-container-layout item-link list-button whole-app-btn otp-submit">Submit</div>
+        </li>
+      </ul>
+      <!-- <ul>
+        <li><a class="item-link list-button whole-app-btn" id="otp-submit">Submit</a></li>
+      </ul> -->
+    </div>
+    <div class="block-footer loogin-footer mt-50">
+      <p class="link login-screen-close">Didn't receive the OTP? <a href="#" class="resend-onclick"> Resend Now</a></p>
+    </div>
+
+  </div>
+</div>
+
+<script>
+
+</script>

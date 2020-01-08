@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeFreeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User24\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\4166fc3f2390bcce97156cdb890c0652\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "176",
+                        "endColumns": "77",
+                        "endOffsets": "253"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "603",
+                        "endColumns": "81",
+                        "endOffsets": "680"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User24\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\851a1eb689dd52471324bc51af805a05\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "274,437",
+                        "endColumns": "63,166",
+                        "endOffsets": "337,603"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,293",
+                        "endColumns": "67,166",
+                        "endOffsets": "168,455"
+                    }
+                },
+                {
+                    "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\generated\\res\\google-services\\free\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,198,307,388,492,594,714",
+                        "endColumns": "142,108,80,103,101,119,97",
+                        "endOffsets": "193,302,383,487,589,709,807"
+                    },
+                    "to": {
+                        "startLines": "6,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "460,685,794,875,979,1081,1201",
+                        "endColumns": "142,108,80,103,101,119,97",
+                        "endOffsets": "598,789,870,974,1076,1196,1294"
+                    }
+                },
+                {
+                    "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "170,55,111",
+                        "endColumns": "63,55,58",
+                        "endOffsets": "229,106,165"
+                    },
+                    "to": {
+                        "startLines": "3,4,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "173,237,1299",
+                        "endColumns": "63,55,58",
+                        "endOffsets": "232,288,1353"
+                    }
+                }
+            ]
+        }
+    ]
+}

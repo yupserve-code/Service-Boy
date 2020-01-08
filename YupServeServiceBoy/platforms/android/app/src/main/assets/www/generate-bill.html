@@ -1,0 +1,288 @@
+<div class="page" data-name="generate-bill">
+      <div class="navbar">
+            <div class="navbar-inner">
+                  <div class="left">
+                        <a href="/#/" class="link" id="generateBillBackButton">
+                              <i class="icon icon-back"></i>
+                        </a>
+                  </div>
+                  <div class="title">Generate Bill</div>
+
+            </div>
+      </div>
+
+      <div class="page-content">
+
+            <div class="card" id="create-bill-card-layout">
+                  <div class="card-header heading-text" id="bookedServiceNameID">Service Name</div>
+                  <div class="clearfix"></div>
+
+                  <p class="bill-order-id" id="orderID">Order ID 1012</p>
+                  <div class="list media-list card-inner-padding">
+                        <div class="generate-bill-layout">
+
+                              <li class="item-content item-input">
+                                    <div class="item-inner">
+                                          <div class="item-title item-label">Sub Service Name</div>
+                                          <div class="item-input-wrap">
+                                                <select name="sub-service-dropdown" id="sub-service-dropdown">
+                                                      <!-- <option value="Sub Service Name" selected>Sub Service Name</option>
+
+                                                      <option value="mat1">Service 1</option>
+                                                      <option value="mat2">Service 2</option> -->
+                                                      
+                                                </select>
+                                          </div>
+                                    <p class="desc-bill-error hidden" id="service-select-error">Select
+                                          Service Name</p>
+
+                                    </div>
+                              </li>
+
+                              <div class="list no-hairlines-md">
+                                    <ul class="bill-gen-ul">
+
+                                          <div class="row list-item-margin-top item-desc-margin-top">
+                                                <textarea class="resizable item-desc" placeholder="Enter Description"
+                                                      id="itemDescID"></textarea>
+                                                <p class="desc-bill-error hidden" id="item-desc-error">Enter
+                                                      Description</p>
+                                          </div>
+                                          <div class="row list-item-margin-top">
+
+                                                <li class="item-content item-input item-input-outline">
+
+                                                      <div class="item-inner">
+                                                            <div class="item-title item-floating-label">Price</div>
+                                                            <div class="item-input-wrap">
+                                                                  <input type="number" placeholder="Enter Price" id="itemPriceID">
+                                                            </div>
+                                                      </div>
+                                                </li>
+
+                                                <p class="bill-error hidden" id="item-price-error">Enter Price</p>
+
+                                          </div>
+
+                                          <div class="row list-item-margin-top">
+
+
+                                                <li class="item-content item-input item-input-outline">
+
+                                                      <div class="item-inner">
+                                                            <div class="item-title item-floating-label">Quantity</div>
+                                                            <div class="item-input-wrap">
+                                                                  <input type="number" placeholder="Enter Quantity" id="itemQuantityID">
+                                                            </div>
+                                                      </div>
+                                                </li>
+
+                                                <p class="bill-error hidden" id="item-quantity-error">Enter Quantity</p>
+
+                                          </div>
+
+                                          <div class="row list-item-margin-top">
+                                                <li class="item-content item-input item-input-outline">
+
+                                                      <div class="item-inner">
+                                                            <div class="item-title item-floating-label">Discount(%)</div>
+                                                            <div class="item-input-wrap">
+                                                                  <input type="number" placeholder="Discount Percentage"
+                                                                        id="itemDiscountID" oninput="javascript: if (this.value.length > 2) this.value = this.value.slice(0, 2);">
+                                                            </div>
+                                                      </div>
+                                                </li>
+
+                                                <p class="bill-error hidden" id="item-disc-error">Enter Discount
+                                                      Percentage</p>
+
+                                          </div>
+
+                                    </ul>
+                              </div>
+
+                              <ul>
+                                    <li>
+                                          <div class="bill-gen-app-btn" id="itemBillGenButtonID"><a href="/#/" id="addUpdateButton">Add</a></div>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card" id="stored-bill-card-layout">
+                  <div class="card-header heading-text">Bill Details<span class="badge color-green hidden" id="add-more-bill">Add
+                              More</span></div>
+
+                  <div class="clearfix"></div>
+                  <div class="list media-list card-inner-padding">
+                        <div class="generate-bill-stored-layout">
+
+                              <div class="list no-hairlines-md">
+                                    <ul class="stored-bill-gen-ul" id="stored-bill-gen-ul">
+
+                                          <!--     <li>
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-90">
+                                                            <p class="gen-bill-item-desc-text">CONA switch for fan
+                                                                  repairing</p>
+                                                      </div>
+                                                      <div class="col-10">
+                                                            <span class="badge color-blue" id="add-more-bill">Edit</span>
+
+                                                      </div>
+                                                </div>
+
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50">
+
+                                                            <p class="gen-bill-align-start-text">Price</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text">100</p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50">
+
+                                                            <p class="gen-bill-align-start-text">Quantity</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text">1</p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50 gen-bill-last-item-padding">
+
+                                                            <p class="gen-bill-align-start-text">Discount</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text">10%</p>
+
+                                                      </div>
+                                                </div>
+
+                                          </li>
+
+                                          <li>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-90">
+                                                            <p class="gen-bill-item-desc-text">3 pieces of nut bold for
+                                                                  door
+                                                                  repairing</p>
+                                                      </div>
+                                                      <div class="col-10">
+                                                            <span class="badge color-blue" id="add-more-bill">Edit</span>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50">
+
+                                                            <p class="gen-bill-align-start-text">Price</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text">100</p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50">
+
+                                                            <p class="gen-bill-align-start-text">Quantity</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text">1</p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50 gen-bill-last-item-padding">
+
+                                                            <p class="gen-bill-align-start-text">Discount</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text">10%</p>
+
+                                                      </div>
+                                                </div>
+                                          </li> -->
+
+                                    </ul>
+                              </div>
+
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card" id="total-bill-card-layout">
+                  <div class="card-header heading-text">Total Amount</div>
+                  <div class="clearfix"></div>
+                  <div class="list media-list card-inner-padding">
+                        <div class="generate-bill-final-layout">
+
+                              <div class="list no-hairlines-md">
+                                    <ul class="final-bill-gen-ul">
+
+                                          <li>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50">
+
+                                                            <p class="gen-bill-align-start-text">Sub Total</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text" id="sub-total-amount-id">Rs.
+                                                                  </p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50">
+
+                                                            <p class="gen-bill-align-start-text">Promo Discount</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text" id="promo-code-id">0%</p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="row list-item-margin-top">
+                                                      <div class="col-50">
+
+                                                            <p class="gen-bill-align-start-text bold-text">Total Payable</p>
+                                                      </div>
+                                                      <div class="col-50">
+                                                            <p class="gen-bill-align-end-text bold-text" id="total-amount-id">Rs.
+                                                                  </p>
+
+                                                      </div>
+                                                </div>
+
+                                          </li>
+
+                                    </ul>
+                              </div>
+
+                        </div>
+                  </div>
+            </div>
+
+            <ul class="final-generate-bill-ul">
+                  <li>
+                        <div class="final-bill-gen-app-btn" id="finalBillGenButtonID"><a href="/#/">Generate Bill</a></div>
+                  </li>
+            </ul>
+      </div>
+</div>

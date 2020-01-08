@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <!-- Color theme for statusbar -->
+      <meta name="theme-color" content="#2196f3">
+      <!-- Your app title -->
+      <title>My App</title>
+      <!-- Path to Framework7 Library CSS -->
+      <link rel="stylesheet" href="css/framework7.min.css">
+      <link rel="stylesheet" href="css/material-icons.css">
+      <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'>
+      <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+      <!-- <link rel="stylesheet" href="css/slick-slider.css" type="text/css" media="screen" /> -->
+      <!-- Path to your custom app styles-->
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+      <!-- App root element -->
+      <div id="app">
+            <!-- Statusbar overlay -->
+            <!-- Left panel, let it be with reveal effect -->
+
+
+
+            <!-- Your main view, should have "view-main" class -->
+            <div class="view view-main">
+                  <!-- Initial Page, "data-name" contains page name -->
+                  <div data-name="login" class="page">
+
+                        <!-- Top Navbar -->
+                        <!-- <div class="navbar">
+                              <div class="navbar-inner">
+                                    <div class="title">Home</div>
+                              </div>
+                        </div> -->
+                        <!-- Scrollable page content -->
+                        <div class="page-content dash-head login-screen-content" id="login-layout">
+                              <!-- <p>Page content goes here</p> -->
+                              <!-- Link to another page -->
+
+                                          <div class="login-logo">
+                                            <img src="images/logo-2.png" />
+                                            <!-- <p class="login-info">Please! Login to continue</p> -->
+                                          </div>
+                                          <form id="loginForm" class="form-ajax-submit">
+                                            <div class="list">
+                                              <ul>
+                                                <li class="item-content item-input">
+                                                  <div class="item-inner login-box-width">
+                                                    <div class="item-title item-label ">Enter Your Mobile Number</div>
+                                                    <div class="item-input-wrap country-code">
+                                                      <input type="number" id="usermobile" placeholder=""
+                                                      oninput="javascript: if (this.value.length > 10) this.value = this.value.slice(0, 10);">
+                                                    </div>
+                                                    <div class="label-1">
+                                                      <span id="mobile-invalid" class="hidden mob-helpers">
+                                                            <p class="fa fa-times invalid" id="mobile-error">Enter your 10
+                                                                  digit mobile number.</p>
+                                                      </span>
+                                                </div>
+                                                  </div>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                            <div class="list">
+                                              <!-- <ul>
+                                                <li>
+                                                   <div class="signup-button-container-layout item-content item-link list-button whole-app-btn"><button class="login-button">Proceed</button></div>
+                                                   <a class="item-link list-button whole-app-btn" class="login-button">Proceed</a>
+                                                </li>
+                                              </ul> -->
+                                    
+                                              <ul>
+                                                  <li>
+                                                        <div class="signup-button-container-layout item-link list-button whole-app-btn login-button"><a href="/#/">Login</a></div>
+                                                  </li>
+                                            </ul>
+                                    
+                                            </div>
+                                          </form>
+                                          <!-- <div class="block-footer loogin-footer">
+                                            <p class="link login-screen-close">Don't have an account? <a href="/signup/"> Register here</a></p>
+                                          </div> -->
+                                        
+                        </div>
+
+
+
+                  </div>
+            </div>
+      </div>
+      </div>
+      <script type="text/javascript" src="cordova.js"></script>
+      <!-- Path to Framework7 Library JS-->
+      <script type="text/javascript" src="js/framework7.min.js"></script>
+      <!-- <script src='js/swiper.min.js'></script> -->
+      <!-- Path to your app js-->
+      <script type="text/javascript" src="js/my-app.js"></script>
+      <script type="text/javascript" src="js/api/api-connection.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <!-- <script src="/js/plugins/jquery.panzoom.js"></script> -->
+      <script type="text/javascript" src="js/activity/generate-bill.js"></script>
+
+</body>
+
+</html>

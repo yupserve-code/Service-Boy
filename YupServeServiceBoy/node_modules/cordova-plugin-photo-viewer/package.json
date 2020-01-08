@@ -1,0 +1,71 @@
+{
+  "_from": "cordova-plugin-photo-viewer",
+  "_id": "cordova-plugin-photo-viewer@1.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-m5EH4W46rTPqAp8H7mkaHDTk5k8=",
+  "_location": "/cordova-plugin-photo-viewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-photo-viewer",
+    "name": "cordova-plugin-photo-viewer",
+    "escapedName": "cordova-plugin-photo-viewer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-photo-viewer/-/cordova-plugin-photo-viewer-1.1.5.tgz",
+  "_shasum": "9b9107e16e3aad33ea029f07ee691a1c34e4e64f",
+  "_spec": "cordova-plugin-photo-viewer",
+  "_where": "E:\\PhoneGap\\Project\\Ongoing\\YupServeServiceBoy",
+  "author": {
+    "name": "Román A. Sarria"
+  },
+  "bugs": {
+    "url": "https://github.com/ihadeed/cordova-plugin-photo-viewer/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-photo-viewer",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin is intended to show a picture from an URL into a Photo Viewer with zoom features.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.2.0"
+    }
+  ],
+  "homepage": "https://github.com/ihadeed/cordova-plugin-photo-viewer#readme",
+  "keywords": [
+    "cordova",
+    "photoviewer",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-photo-viewer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihadeed/cordova-plugin-photo-viewer.git"
+  },
+  "version": "1.1.5"
+}

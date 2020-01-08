@@ -1,0 +1,140 @@
+<div class="page" data-name="request-booking">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="/service-sub-list/" class="link">
+          <i class="icon icon-back"></i>
+
+        </a>
+      </div>
+      <div class="title">Request Booking</div>
+      <div class="right">
+        <a href="/notification/" class="link icon-only">
+          <i class="icon f7-icons ios-only">bell<span class="badge color-red">..</span></i>
+          <i class="icon material-icons md-only">notifications_none<span class="badge color-red">12</span></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content gray-bg">
+
+    <div class="card">
+      <div class="card-header heading-text">Select Date</div>
+      <div class="clearfix"></div>
+      <div class="list media-list card-inner-padding profile-list">
+        <div id="demo-calendar-inline-container"></div>
+      </div>
+    </div>
+
+    <div class="card mt-30 mb-15">
+      <div class="card-header heading-text">Select Time Slot</div>
+      <div class="clearfix"></div>
+      <div class="list media-list card-inner-padding profile-list">
+        <p class="row select-time-slot">
+          <button class="col-33 button button-raised button-fill button-round">08:00 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">08:30 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">09:00 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">09:30 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">10:00 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">10:30 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">11:00 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">11:30 AM</button>
+          <button class="col-33 button button-raised button-fill button-round">12:00 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">12:30 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">01:00 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">01:30 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">02:00 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">02:30 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">03:00 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">03:30 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">04:00 PM</button>
+          <button class="col-33 button button-raised button-fill button-round">04:30 PM</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="card mt-30 mb-15">
+      <div class="card-header heading-text">Appointment Details</div>
+      <div class="clearfix"></div>
+      <div class="list media-list card-inner-padding">
+        <!-- Login form -->
+        <form id="" class="">
+          <div class="list">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-floating-label">Address</div>
+                  <div class="item-input-wrap">
+                    <input type="text" id="" placeholder="Enter street address">
+                  </div>
+                  <div class="label-1">
+                    <span id="address-invalid" class="hidden mob-helpers">
+                      <p class="fa fa-times invalid" id="">Enter your
+                        address.</p>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-floating-label">PIN Code</div>
+                  <div class="item-input-wrap">
+                    <input type="number" id="" placeholder="Enter PIN code" maxlength="6" oninput="javascript: if (this.value.length > 6) this.value = this.value.slice(0, 6);">
+                  </div>
+                  <div class="label-1">
+                    <span id="pin-invalid" class="hidden mob-helpers">
+                      <p class="fa fa-times invalid" id="">Enter your PIN
+                        code.</p>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-floating-label">City</div>
+                  <div class="item-input-wrap">
+                    <input type="text" id="" placeholder="Enter your city name" value="Bhubaneswar">
+                  </div>
+                  <div class="label-1">
+                    <span id="city-invalid" class="hidden mob-helpers">
+                      <p class="fa fa-times invalid" id="">Enter your city
+                        name.</p>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-floating-label">State</div>
+                  <div class="item-input-wrap">
+                    <input type="text" id="userstate" placeholder="Enter state name" value="Odisha">
+                  </div>
+                  <div class="label-1">
+                    <span id="state-invalid" class="hidden mob-helpers">
+                      <p class="fa fa-times invalid" id="state-error">Enter your state
+                        name.</p>
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </form>
+        <div class="list mb-15">
+          <ul>
+            <li>
+              <!-- Please remove the anchor tag after validation -->
+              <a href="/mybooking/">
+                <div class="signup-button-container-layout item-link list-button whole-app-btn signup-button">Complete
+                  Booking</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>

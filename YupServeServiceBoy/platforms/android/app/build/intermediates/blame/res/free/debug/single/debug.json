@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\xml_config.xml.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\xml_camera_provider_paths.xml.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\xml\\camera_provider_paths.xml"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\layout_activity_photo.xml.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\layout\\activity_photo.xml"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi_screen.png.flat",
+        "source": "E:\\PhoneGap\\YupServeServiceBoy\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\screen.png"
+    }
+]

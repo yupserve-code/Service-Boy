@@ -1,0 +1,157 @@
+<div class="page no-navbar no-toolbar no-swipeback" data-name="dashboard">
+
+        <div class="statusbar"></div>
+        <!-- Left panel, let it be with reveal effect -->
+        <div class="panel panel-left panel-cover">
+              <div class="logo-profile">
+                    <div class="user-profile-image">
+                          <img src="images/man.png" />
+                    </div>
+                    <h2 id="dashboardServiceBoyName"></h2>
+              </div>
+              <!-- List View-->
+              <div class="list dashboard">
+                    <ul>
+                          <li class="">
+                                <a href="/#/" class="item-link item-content panel-close" id="drawerHome">
+                                      <div class="item-media"><img src="images/house-outline.svg" width="20"></div>
+                                      <div class="item-inner">
+                                            <div class="item-title">Home</div>
+                                      </div>
+                                </a>
+                          </li>
+                          <li id="drawerProfileLayout">
+                                <a href="/#/" class="item-link item-content panel-close" id="drawerProfile">
+                                      <div class="item-media"><img src="images/profile.svg" width="20"></div>
+                                      <div class="item-inner">
+                                            <div class="item-title">My Account</div>
+                                      </div>
+                                </a>
+                          </li>
+                         
+                          <li>
+                                <a href="/#/" class="item-link item-content panel-close" id="drawerNotification">
+                                      <div class="item-media"><img src="images/notification.svg" width="20"></div>
+                                      <div class="item-inner">
+                                            <div class="item-title">Notifications</div>
+                                      </div>
+                                </a>
+                          </li>
+                          
+                          <!-- <li>
+                                <a href="/login/" class="item-link item-content panel-close">
+                                      <div class="item-media"><img src="images/login.svg" width="20"></div>
+                                      <div class="item-inner">
+                                            <div class="item-title">Login</div>
+                                      </div>
+                                </a>
+                          </li> -->
+                          <li>
+                                <a href="/#/" class="item-link item-content panel-close" id="logout-click">
+                                      <div class="item-media"><img src="images/logout.svg" width="20"></div>
+                                      <div class="item-inner">
+                                            <div class="item-title">Logout</div>
+                                      </div>
+                                </a>
+                          </li>
+                    </ul>
+              </div>
+        </div>
+
+        <!-- Top Navbar -->
+        <div class="navbar">
+
+            <div class="navbar-inner">
+                  <div class="left">
+                        <a href="#" class="link panel-open">
+                              <i class="material-icons">menu</i>
+                        </a>
+                  </div>
+                  <div class="title">Home</div>
+                  <div class="right">
+                        <a href="/#/" class="link icon-only" id="notificationIcon">
+                              <i class="icon f7-icons ios-only">bell<span class="badge color-red">..</span></i>
+                              <i class="icon material-icons md-only">notifications_none<span class="badge color-red" id="notificationCount"></span></i>
+                        </a>
+                  </div>
+            </div>
+      </div>
+
+    <div class="page-content dash-head">
+
+          <div class="row mrgtb">
+
+                <div class="col pending">
+                      <a href="/#/" id="dashboardAllTaskCard">
+                            <div class="item-media3"><img src="images/list-white.svg" class="profile-item-image" /></div>
+                            <h3>Total</h3>
+                            <p id="total_count">0</p>
+                      </a>
+                </div>
+
+                <div class="col completed">
+                      <a href="/#/" id="dashboardCompletedTaskCard">
+                            <div class="item-media3"><img src="images/tick-box-white.svg" class="profile-item-image" /></div>
+                            <h3>Completed</h3>
+                            <p id="completed_count">0</p>
+                      </a>
+                </div>
+
+                <div class="col assigned">
+                      <a href="/#/" id="dashboardAssignedTaskCard">
+                            <div class="item-media3">
+                                  <img src="images/customer-service-white.svg" class="profile-item-image" />
+                            </div>
+                            <h3>Assigned</h3>
+                            <p id="assigned_count">0</p>
+                      </a>
+                </div>
+
+          </div>
+
+
+          <div class="clearfix"></div>
+          <div class="page-align">
+                <div class="card clearfix" id="taskDashboard">
+                      <div class="card-header heading-text">Task <a href="/#/" id="viewAllTaskButton">View all</a></div>
+                      <div class="card-content card-content-padding"></div>
+                      <div class="dashboard-menu">
+
+                            <div class="clearfix"></div>
+                            <div class="list media-list  card-inner-padding searchbar-found">
+                                  <ul class="my-booking" id="home-booking-list-data">
+
+                                       <!--  <li>
+                                              <a href="/task-details/" class="item-link item-content">
+                                                    <div class="item-media"><img src="images/cleaning-service.svg"
+                                                                width="70" /></div>
+                                                    <div class="item-inner">
+                                                          <div class="item-title-row">
+                                                                <div class="item-order-number">Booking
+                                                                      ID - #YUP001</div>
+                                                                <div class="item-after orange-background">Pending</div>
+                                                          </div>
+                                                          <div class="booking-service-name">Bathroom
+                                                                Washing</div>
+                                                          <div class="item-title-row my-booking-date-otp-layout">
+                                                                <div class="item-date">Scheduled On
+                                                                      - 28 DEC 2018 10:00 AM</div>
+                                                          </div>
+                                                    </div>
+                                              </a>
+                                        </li> -->
+                                  </ul>
+
+                            </div>
+                      </div>
+                </div>
+
+                <div class="login-logo" id="empty-dashboard-task-screen">
+                  <img src="images/empty-assigned-task.svg" style="width: 30%;"/>
+                  <p class="login-info">No task assigned yet</p>
+                </div>
+
+          </div>
+
+        </div>
+        </div>

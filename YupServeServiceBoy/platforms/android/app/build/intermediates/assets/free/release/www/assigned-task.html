@@ -1,0 +1,115 @@
+<div class="page" data-name="assigned-task">
+      <!-- <div class="navbar">
+            <div class="navbar-inner">
+                  <div class="left">
+                        <a href="/home/" class="link">
+                              <i class="icon icon-back"></i>
+                        </a>
+                  </div>
+                  <div class="title">My Booking</div>
+                  <div class="right">
+                        <a href="/notification/" class="link icon-only">
+                              <i class="icon f7-icons ios-only">bell<span class="badge color-red">..</span></i>
+                              <i class="icon material-icons md-only">notifications_none<span class="badge color-red">12</span></i>
+                        </a>
+                  </div>
+            </div>
+      </div> -->
+      <div class="navbar">
+            <div class="navbar-inner">
+                  <div class="left">
+                        <a href="/#/" class="link" id="assignedTaskBackButton">
+                              <i class="icon icon-back"></i>
+                        </a>
+                  </div>
+                  <div class="title">Assigned Task</div>
+                  <!-- <div class="right">
+                        <a href="/notification/" class="link icon-only">
+                              <i class="icon f7-icons ios-only">bell<span class="badge color-red">..</span></i>
+                              <i class="icon material-icons md-only">notifications_none<span class="badge color-red">12</span></i>
+                        </a>
+                  </div> -->
+
+                  <div class="subnavbar" id="assisgnedSearchbar">
+
+                        <form class="searchbar">
+                              <div class="searchbar-inner">
+                                    <div class="searchbar-input-wrap">
+                                          <input type="search" placeholder="Search">
+                                          <i class="searchbar-icon"></i>
+                                          <span class="input-clear-button"></span>
+                                    </div>
+                                    <span class="searchbar-disable-button">Cancel</span>
+                              </div>
+                        </form>
+                  </div>
+
+            </div>
+      </div>
+      <!-- FAB Right Bottom (Orange) -->
+      <div class="fab fab-right-bottom color-orange" id="assignedTaskFabButton">
+            <a href="/filters/" class=""><i class="material-icons">filter_list</i><i class="material-icons">close</i></a>
+            <!-- <div class="fab-buttons fab-buttons-top">
+                  <a class="fab-label-button" href="#"><span>1</span><span class="fab-label">Action1</span></a>
+                  <a class="fab-label-button" href="#"><span>2</span><span class="fab-label">Action2</span></a>
+            </div> -->
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="page-content infinite-scroll-content" data-infinite-distance="100">
+            <!-- Searchbar backdrop -->
+            <div class="searchbar-backdrop"></div>
+
+            <div class="card clearfix mb-15 mt-20" id="assigned-task-layout">
+                  <div class="list media-list  card-inner-padding searchbar-found">
+                        <ul class="my-booking" id="assigned-task-list">
+                                    <!-- <li>
+                                                <a href="/task-details/" class="item-link item-content">
+                                                      <div class="item-media"><img src="images/paint-roller.svg"
+                                                                  width="70" /></div>
+                                                      <div class="item-inner">
+                                                            <div class="item-title-row">
+                                                                  <div class="item-order-number">Booking
+                                                                        ID - #YUP005</div>
+                                                                  <div class="item-after green-background">Assigned</div>
+                                                            </div>
+                                                            <div class="booking-service-name">Wall
+                                                                  Painting</div>
+                                                            <div class="item-title-row my-booking-date-otp-layout">
+                                                                  <div class="item-date">Scheduled On
+                                                                        - 28 DEC 2018 10:00 AM</div>
+                                                            </div>
+                                                      </div>
+                                                </a>
+                                          </li> -->
+                                         
+                        </ul>
+                  </div>
+                  <!-- Nothing found message -->
+                  <div class="block searchbar-not-found">
+                        <div class="block-inner">Nothing found</div>
+                  </div>
+
+            </div>
+
+            <!-- <div class="login-logo" id="empty-assigned-task-screen">
+                  <img src="images/empty-assigned-task.svg" style="width: 30%;"/>
+                  <p class="login-info">No task assigned yet</p>
+                </div> -->
+
+                <div class="empty-list" id="empty-assigned-task-screen">
+                  <img src="images/empty-assigned-task.svg" />
+                  <p class="">No task assigned yet</p>
+                </div>
+
+                <div class="preloader infinite-scroll-preloader color-multi"></div>
+
+      </div>
+</div>
