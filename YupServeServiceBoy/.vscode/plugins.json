@@ -1,0 +1,1 @@
+{"plugins":["cordova-plugin-whitelist","cordova-plugin-console","cordova-plugin-camera","cordova-plugin-network-information","cordova-plugin-statusbar","cordova-plugin-fcm","cordova-plugin-splashscreen","cordova-plugin-file","cordova-plugin-file-transfer","cordova-plugin-photo-viewer"]}
