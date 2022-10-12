@@ -21,9 +21,9 @@
     }
   },
   "dependencies": {
-    "@amcharts/amcharts4": "^4.1.5",
-    "cordova-android": "^7.1.4",
-    "cordova-browser": "^5.0.4",
+    "@amcharts/amcharts4": "^4.10.29",
+    "cordova-android": "^11.0.0",
+    "cordova-browser": "^6.0.0",
     "cordova-plugin-camera": "~4.0.3",
     "cordova-plugin-console": "~1.0.1",
     "cordova-plugin-fcm": "^2.1.2",
